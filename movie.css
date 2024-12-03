@@ -1,0 +1,143 @@
+.header-2 {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: grid;
+justify-items: center;
+align-items: center;
+height: 100px;
+transition: var(--transition-2);
+z-index: 4;
+/*box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);*/
+background: var(--rich-black-fogra-29);
+/*background: var(--xiketic);*/
+/*border-bottom: 1px solid var(--red);*/
+}
+
+.header-2 .container {
+width: 100%;
+display: flex;
+justify-content: space-between;    
+/*border: 1px solid red;*/
+}
+
+.movie{
+height: 560px;  
+width: 100%;  
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.movie-2{
+background: rgba(0, 0, 0, 0.5);    
+width: 100%;
+height: 100%;
+display: grid;
+align-items: center;
+justify-items: center;
+}
+.qualidade{
+background: var(--red);
+height: 30px;
+width:140px;    
+color: white;
+margin-right: 5px;
+margin-top: 4px;
+}
+.movie-info{
+width: 98%;
+margin: auto;
+/*border: 1px solid red;*/   
+height: 92%; 
+}
+.movie-info{
+display:flex;
+justify-content: space-between;    
+}
+.movie-info .baixar{
+display: grid;
+align-items: center;
+height: 100%;   
+width: 10%;
+right: 0;
+/*border: 1px solid red;  */  
+}
+.movie-info .baixar button{
+width: 140px;
+height: 80px;
+color: white;
+background: var(--red);
+transform: rotate(90deg);    
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+cursor: pointer;
+transition: .3s ease-in-out;
+}
+.movie-info .baixar button:hover{
+border: 2px solid var(--red);
+background: var(--xiketic);    
+}
+.movie-info .baixar button i{
+margin-left: 10px;
+}
+.info{
+display: flex;    
+}
+.info .capa img{
+width: 360px;
+height: 100%; 
+border-radius: 4px;   
+}
+.txts{
+height: 100%;
+display: grid;
+align-items: center;    
+}
+.txts .content{
+margin-left: 40px;    
+}
+.txts .content h2{
+color: white;
+margin-bottom: 20px;
+font-size: 34px;
+}
+.txts .content p{
+width: 70%;
+color: white;
+font-size: 15px;
+text-align: justify;
+margin-top: 10px;
+}
+.txts .content .watch{
+width: 60%;
+margin-top: 40px;
+background: rgba(0, 0, 10, 0.5);
+border: 1px solid var(--gray);
+height: 80px;
+border-radius: 4px;
+display: grid;
+align-items: center;
+display: flex;
+}
+.txts .content .watch p{
+height: 60px;
+/*border-right: 1px solid var(--gray);*/
+margin-top: 30px;  
+margin-left: 20px;
+}
+.txts .content .watch button{
+background: var(--xiketic);   
+width: 160px;
+height: 50px;
+color: white; 
+border-radius: 80px;
+border: 2px solid var(--red);
+margin-right: 20px;
+cursor: pointer;
+transition: .3s ease-in-out;
+}
+.txts .content .watch button:hover{
+background: var(--red);
+}
